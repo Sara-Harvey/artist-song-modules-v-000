@@ -4,4 +4,8 @@ module Findable
     detect{|a| a.name == name}
   end
   
+    def self.all
+    @@artists
+  end
+  
 end
