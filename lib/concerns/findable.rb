@@ -6,7 +6,7 @@ module Findable
  
   def initialize(name)
     @name = name
-    CONSTANT << instance
+    CONSTANT << object_id
   end
   end
  
