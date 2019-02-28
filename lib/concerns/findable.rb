@@ -6,6 +6,8 @@ module Findable
  
   def initialize(name)
     @name = name
+    CONSTANT << self
+  end
   end
  
   def all
