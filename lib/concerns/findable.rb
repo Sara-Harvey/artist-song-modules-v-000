@@ -6,7 +6,7 @@ module Findable
  
   def initialize(name)
     @name = name
-    CONSTANT << self
+    CONSTANT << instance
   end
   end
  
